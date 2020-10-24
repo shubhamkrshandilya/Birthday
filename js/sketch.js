@@ -22,7 +22,7 @@ function setup() {
   divcontainer = select("#canvas") 
   // canvas.parent(divcontainer);
   divcontainer.parent(canvas);
-  img = loadImage("img/pic.jpg");
+  img = loadImage("img/Pic.jpg");
   bulbBtn = select(".bulb")
   fireworksBtn = select(".fireworks")
   ballonBtn = select(".ballon");
