@@ -27,7 +27,7 @@ function setup() {
   fireworksBtn = select(".fireworks")
   ballonBtn = select(".ballon");
   musicBtn = select(".music");
-  commentBtn = select(".comment");
+  //commentBtn = select(".comment");
   bulbBtn.mouseClicked(bulbClicked);
   fireworksBtn.mouseClicked(fireworksClicked);
   ballonBtn.mouseClicked(ballonClicked);
@@ -126,13 +126,13 @@ function musicClicked(){
   }
  }
  
- function commentClicked(){
-  if(!commentIndex){
-    greet = createAudio("audio/birthday.mp3");
-    greet.play(true);
-    commentIndex = !commentIndex;
-  }else{
-    greet.stop();
-    commentIndex = !commentIndex;
-  }
- }
+//  function commentClicked(){
+//   if(!commentIndex){
+//     greet = createAudio("audio/birthday.mp3");
+//     greet.play(true);
+//     commentIndex = !commentIndex;
+//   }else{
+//     greet.stop();
+//     commentIndex = !commentIndex;
+//   }
+//  }
