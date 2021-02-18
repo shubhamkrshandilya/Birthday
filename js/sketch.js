@@ -32,7 +32,7 @@ function setup() {
   fireworksBtn.mouseClicked(fireworksClicked);
   ballonBtn.mouseClicked(ballonClicked);
   musicBtn.mouseClicked(musicClicked);
-  commentBtn.mouseClicked(commentClicked);
+  //commentBtn.mouseClicked(commentClicked);
   colorMode(HSB);
   gravity = createVector(0, 0.2);
   stroke(255);
